@@ -2,10 +2,10 @@
 
 ## Dataset
 ```
-wget https://drive.google.com/file/d/1RRUxMVKfsQz0yC320TUZAnbQ-XKt2l9W/view?usp=sharing
+wget https://drive.google.com/file/d/19G3ks3sA6Dxz4cJBiDJHt2iuhR8Gur4z/view?usp=sharing
 mkdir dataset
-unzip mapilary.zip -d dataset
-rm mapilary.zip
+unzip organized_mapilary_dataset.zip -d dataset
+rm organized_mapilary_dataset.zip
 python dataset_converter.py  # generating yolo/yolo_data
 ```
 
