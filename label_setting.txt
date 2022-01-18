@@ -1,0 +1,8 @@
+{
+    "stop" : {
+        "mapilary_labels_list" : [
+            "regulatory--stop--g1","regulatory--stop--g10","regulatory--stop-signals--g1"
+        ],
+        "lisa_labels_list" : ["stop"]
+    }
+}

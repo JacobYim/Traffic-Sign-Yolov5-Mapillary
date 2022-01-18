@@ -6,8 +6,8 @@ import pandas as pd
 from PIL import Image
 from functools import *
 
-destination_dataset_dir_name  = "yolo/yolo_data"
-source_dataset_dir_name = "dataset"
+destination_dataset_dir_name  = "yolov5/yolo/yolo_data"
+source_dataset_dir_name = "yolov5/dataset"
 
 def load_mapilary(dataset='total') :
     json_datas = []
@@ -54,7 +54,7 @@ def mapilary_to_yolo(mapilary_jsons, yolo_labels, mapilary_labels_list) :
 
 def convert_coordinate() :
     print('convert_coordinate start')
-    new_label_file_dir = "yolo/yolo_data"
+    new_label_file_dir = "yolov5/yolo/yolo_data"
 #    if new_label_file_dir in os.listdir() :
 #        shutil.rmtree(new_label_file_dir)
 #    os.mkdir(new_label_file_dir)
